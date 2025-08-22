@@ -1,0 +1,34 @@
+# CODEOWNERS file for cache-proxy-629
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-notifications @Armor-test/team-notifications @Armor-test/squad-frontend
+
+# Directory ownership
+/build/ @Armor-test/grp-reporting @Armor-test/squad-database
+/models/ @Armor-test/unit-devops @Armor-test/squad-ux
+/db/ @Armor-test/grp-integration @Armor-test/squad-product
+/public/ @Armor-test/grp-api @Armor-test/dept-logging @Armor-test/grp-integration
+/modules/ @Armor-test/unit-test @Armor-test/grp-search @Armor-test/dept-billing
+/spec/ @Armor-test/dept-identity @Armor-test/squad-qa
+/web/ @Armor-test/squad-mobile @Armor-test/squad-research
+/scripts/ @Armor-test/squad-frontend @Armor-test/dept-ui @Armor-test/unit-devops
+/controllers/ @Armor-test/dept-security @Armor-test/unit-test
+/src/ @Armor-test/dept-data @Armor-test/grp-reporting @Armor-test/squad-api
+
+# File type ownership
+*.h @Armor-test/squad-mobile @Armor-test/team-security @Armor-test/grp-payments
+*.c @Armor-test/squad-tooling @Armor-test/squad-ux
+*.md @Armor-test/dept-automation @Armor-test/squad-payments
+*.css @Armor-test/team-security @Armor-test/dept-automation @Armor-test/squad-frontend
+*.html @Armor-test/squad-cache @Armor-test/team-reporting @Armor-test/dept-api
+*.ts @Armor-test/unit-cloud @Armor-test/squad-reporting @Armor-test/grp-ui
+*.config @Armor-test/grp-storage @Armor-test/team-frontend @Armor-test/squad-product
+*.php @Armor-test/squad-database @Armor-test/grp-api @Armor-test/grp-search
+*.yaml @Armor-test/squad-mobile @Armor-test/dept-release
+*.java @Armor-test/dept-notifications @Armor-test/unit-devops @Armor-test/squad-search
+*.yml @Armor-test/dept-notifications @Armor-test/dept-reliability
+*.ini @Armor-test/unit-design @Armor-test/grp-storage
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
